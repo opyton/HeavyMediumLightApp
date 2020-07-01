@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/pushdaytext1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Dumbell OHP 5x8"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="161dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/latpullcounter"
+            android:layout_width="132dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="5"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="343dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <TextView
+            android:id="@+id/latpulltext"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="@string/sets_left"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <Button
+            android:id="@+id/latpulldec"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/decrement"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="209dp" />
+
+    </TableRow>
+
+    <TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/pushdaytext2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Lateral Raises 5x15"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="161dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/curlcounter"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/regsetval"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="317dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <TextView
+            android:id="@+id/curlview"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/sets_left"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <Button
+            android:id="@+id/curldec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/decrement"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="496dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/pushdaytext3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Wide Grip Lat Pulldown"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="161dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/rowcounter"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/regsetval"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="317dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <TextView
+            android:id="@+id/rowview"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/sets_left"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <Button
+            android:id="@+id/rowdec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/decrement"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="496dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/pushdaytext4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Cable Fly 5x8"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="161dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/dumbellcounter"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/regsetval"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="317dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <TextView
+            android:id="@+id/dumbellview"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/sets_left"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <Button
+            android:id="@+id/dumbelldec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/decrement"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="496dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/pushdaytext5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tricep Extension 5x8"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="161dp" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/hypertext"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/regsetval"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="317dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/sets_left"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <Button
+            android:id="@+id/hyperdec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/decrement"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="496dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/rest_timer"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <TextView
+            android:id="@+id/day1CountDownTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1:00"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <Button
+            android:id="@+id/day1CountDownBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="496dp" />
+
+        <Button
+            android:id="@+id/Day1topreset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="590dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/MainMenuBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Done"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </TableRow>
+
+</TableLayout>
+
+

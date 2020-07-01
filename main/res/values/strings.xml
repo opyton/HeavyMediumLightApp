@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Heavy Medium Light</string>
+    <string name="greeting_label">Welcome! Please Enter 3 Rep Maxes\n or refer to REP max calculator</string>
+    <string name="squat">Squat</string>
+    <string name="squat_val">100</string>
+    <string name="bench">Bench</string>
+    <string name="bench_val">100</string>
+    <string name="deadlift">Deadlift</string>
+    <string name="deadlift_val">100</string>
+    <string name="estimate">Estimate</string>
+    <string name="next">Next</string>
+    <string name="about">About</string>
+    <string name="about_text">\nAbout\n\nPretty standard Heavy-Medium-Light Program.\nProgram works you up to a top set followed by 5 sets at 85-90% Max depending on day.\nDays alternate between Bench and Squat/Deadlift.\nAccessories are based on preference (default is standard push/pull).\n\nProgression\n\nProgram is meant to be linear/semi-linear progression. On Heavy Days, if you can comfortably do the top set of 3, increase lift max by 5-10 lbs.\nIf you cannot, leave weights the same.\nIf after 3 weeks, you cannot comfortably hit your top set, it is recommended to deload.\nDeload by either taking a break for the following week, or reducing your weights by 50% for that week.\n The following week, try again with the weight from before.\nIf you cannot hit your top set after a deload week, reduce the max by 10%.</string>
+    <string name="_3_rep_max_calculator">3 Rep Max Calculator</string>
+    <string name="reps">Reps</string>
+    <string name="weight">Weight</string>
+    <string name="_100">100</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_weight_and_reps_and_click_calculate_to_get_a_rough_estimate_of_your_3_rep_max">Enter Weight and Reps and click Calculate to get a rough estimate of your 3 rep max</string>
+    <string name="day_1_heavy_deadlift">Day 1: Heavy Deadlift</string>
+    <string name="day_2_medium_bench">Day 2: Medium Bench</string>
+    <string name="day_3_heavy_squat">Day 3: Heavy Squat</string>
+    <string name="day_4_light_bench">Day 4: Light Bench</string>
+    <string name="day_5_medium_squat">Day 5: Medium Squat</string>
+    <string name="day_6_heavy_bench">Day 6: Heavy Bench</string>
+    <string name="click_on_the_appropriate_day_to_see_the_program_if_you_wish_to_do_less_days_i_would_recommend_cutting_the_medium_and_light_days">Click on the appropriate day to see the program. If you wish to do less days, I would recommend cutting the medium and light days</string>
+    <string name="top_set_deadlift_1x3">Top Set Deadlift 3 Reps</string>
+    <string name="backoffdeadlift_5x3">Back Off Sets Deadlift 5x3</string>
+    <string name="textview">TextView</string>
+    <string name="timer_text">2:00</string>
+    <string name="start">Start</string>
+    <string name="rest_timer">Rest Timer</string>
+    <string name="sets_left">Sets Left</string>
+    <string name="deadliftTop1">1</string>
+    <string name="decrement">Decrement</string>
+    <string name="back_off_sets_deadlift_5x3">Back Off Sets Deadlift 3 Reps</string>
+    <string name="regsetval">5</string>
+    <string name="reset">Reset</string>
+    <string name="back_off_sets_squat_3_reps">Back Off Sets Squat 3 Reps</string>
+    <string name="top_set_squat_3_reps">Top Set Squat 3 Reps</string>
+    <string name="top_set_squat_5_reps">Top Set Squat 5 Reps</string>
+    <string name="top_set_bench_5_reps">Top Set Bench 5 Reps</string>
+    <string name="top_set_bench_3_reps">Top Set Bench 3 Reps</string>
+    <string name="back_off_sets_squat_5_reps">Back Off Sets Squat 5 Reps</string>
+    <string name="back_off_sets_bench_5_reps">Back Off Sets Bench 5 Reps</string>
+    <string name="back_off_sets_bench_3_reps">Back Off Sets Bench 3 Reps</string>
+    <string-array name="rpe_nums">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+<!--    Use for Heavy Squat and Deadlift-->
+    <string-array name="Day1Desc">
+        <item>Top Set 1x3</item>
+        <item>Back Off Set 5x3</item>
+        <item>Narrow Grip Lat Pulldown 5x8</item>
+        <item>Cable Curl 5x8</item>
+        <item>Narrow Grip Cable Row 5x8</item>
+        <item>Dumbbell Curl 5x8</item>
+        <item>HyperExtension or Cable Pullover 5x8</item>
+    </string-array>
+
+    <string-array name="Day5Desc">
+        <item>Top Set 1x5</item>
+        <item>Back Off Set 5x5</item>
+        <item>Narrow Grip Lat Pulldown 5x8</item>
+        <item>Cable Curl 5x8</item>
+        <item>Narrow Grip Cable Row 5x8</item>
+        <item>Dumbbell Curl 5x8</item>
+        <item>HyperExtension or Cable Pullover 5x8</item>
+    </string-array>
+
+    <string-array name="Day2Desc">
+        <item>Top Set 1x5</item>
+        <item>Back Off Set 5x5</item>
+        <item>Dumbell OHP 5x8</item>
+        <item>Lateral Raises 5x15</item>
+        <item>Wide Grip Lat Pulldown 5x8</item>
+        <item>Cable Fly 5x8</item>
+        <item>Tricep Extension 5x8</item>
+    </string-array>
+
+    <string-array name="Day6Desc">
+        <item>Top Set 1x3</item>
+        <item>Back Off Set 5x3</item>
+        <item>Dumbell OHP 5x8</item>
+        <item>Lateral Raises 5x15</item>
+        <item>Wide Grip Lat Pulldown 5x8</item>
+        <item>Cable Fly 5x8</item>
+        <item>Tricep Extension 5x8</item>
+    </string-array>
+
+
+
+</resources>
